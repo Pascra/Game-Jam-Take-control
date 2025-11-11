@@ -146,6 +146,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
           "name": "Flat dark joystick thumb.png"
         }
+      },
+      {
+        "file": "assets/32rogues/pixelcut-export.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\32rogues\\pixelcut-export.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/32rogues/tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\32rogues\\tiles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/content.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\content.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -177,7 +201,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126329,
+        "zoomFactor": 0.7370816317994057,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -202,15 +226,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0.8421052631578947,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "TopDown_Character",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
-          "width": 0,
-          "x": 608,
-          "y": 328,
+          "width": 67.36842105263158,
+          "x": 349,
+          "y": 351,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -226,226 +251,16 @@
           "name": "Ground_Tilemap",
           "persistentUuid": "140c37d7-fd0a-4882-83ed-142e8f549ba8",
           "width": 0,
-          "x": -64,
+          "x": -128,
           "y": -64,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,3,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,0,0,0],[0,0,0,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,0,0,2],[0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,2,0,7,7,0,0,0],[0,2,0,7,7,0,1,2,0,1,0,0,0,0,2,0,0,7,7,0,0,0],[0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0],[0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,1,0,7,7,0,0,0],[0,0,0,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,0,0,0],[0,0,0,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0]]}]}"
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":23,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[20,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,5],[-1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]]}]}"
             }
           ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "1ef6f774-a666-42ab-bcc0-4ecdb8656e6a",
-          "width": 0,
-          "x": 1152,
-          "y": 192,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "a95eccb9-3ddc-4f20-aeec-55dd40e9cf56",
-          "width": 0,
-          "x": 256,
-          "y": 64,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "726d874b-fb5d-4e42-82f6-c3d2ab5aefbd",
-          "width": 0,
-          "x": 896,
-          "y": 640,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "22bf0d32-275e-4e74-b120-bfa34be62474",
-          "width": 128,
-          "x": 0,
-          "y": 384,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "6dabd131-ae06-40b2-930f-50d1e7026310",
-          "width": 0,
-          "x": 576,
-          "y": 640,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "4422fbf3-9071-4d22-97ee-f258cac25ee2",
-          "width": 0,
-          "x": 192,
-          "y": 64,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "feccce61-ac7a-40f8-925e-84ce0766fc15",
-          "width": 0,
-          "x": 384,
-          "y": 64,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "4a78f239-4eba-4792-a457-8b997763e8eb",
-          "width": 0,
-          "x": 640,
-          "y": 448,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "e8b8a032-ae32-41b2-9468-0aad5f3d0e6c",
-          "width": 0,
-          "x": 1152,
-          "y": 448,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "0558feb8-600f-40b6-b474-67ea4d4a7bd2",
-          "width": 0,
-          "x": 1152,
-          "y": 384,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "cb56c589-3dec-471f-9f78-46c50bc95adc",
-          "width": 0,
-          "x": 768,
-          "y": 640,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Plant",
-          "persistentUuid": "b18f0870-688b-448d-a660-b6012462631f",
-          "width": 0,
-          "x": 704,
-          "y": 448,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "c7ce716c-4fa4-4a66-9ec8-e0fd2a3937c4",
-          "width": 128,
-          "x": 896,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
           "initialVariables": []
         },
         {
@@ -457,11 +272,32 @@
           "name": "DashCooldownText",
           "persistentUuid": "0c8c9420-8b81-4a89-a7c0-9a55e0f7b446",
           "width": 0,
-          "x": 10,
-          "y": 10,
+          "x": 118,
+          "y": -23,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "1e95f13b-6c6f-4d44-98c6-92125374bc92",
+          "width": 0,
+          "x": 2,
+          "y": -38,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":20,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[34,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,34],[34,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,34]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
@@ -575,7 +411,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer.png",
+                      "image": "assets\\content.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -623,23 +459,12 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "atlasImage": "assets\\StartingGroundTilemap.png",
-            "rowCount": 3,
-            "columnCount": 3,
+            "atlasImage": "assets\\32rogues\\pixelcut-export.png",
+            "rowCount": 26,
+            "columnCount": 17,
             "tileSize": 64,
             "tilesWithHitBox": ""
           }
-        },
-        {
-          "assetStoreId": "",
-          "height": 64,
-          "name": "Wall",
-          "texture": "assets\\StartingWall.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -841,6 +666,21 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Wall",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\32rogues\\pixelcut-export.png",
+            "rowCount": 26,
+            "columnCount": 17,
+            "tileSize": 64,
+            "tilesWithHitBox": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -851,9 +691,6 @@
           },
           {
             "objectName": "Ground_Tilemap"
-          },
-          {
-            "objectName": "Wall"
           },
           {
             "objectName": "Plant"
@@ -868,6 +705,9 @@
           },
           {
             "objectName": "DashCooldownText"
+          },
+          {
+            "objectName": "Wall"
           }
         ]
       },
@@ -1154,6 +994,22 @@
                 "Text",
                 "=",
                 "\"Cooldown: Ready\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Wall",
+                ""
               ]
             }
           ]
